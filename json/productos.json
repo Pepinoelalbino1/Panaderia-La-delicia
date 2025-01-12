@@ -1,0 +1,292 @@
+{
+  "productos": [
+    {
+      "id": "pan-1",
+      "nombre": "Pan Baguette",
+      "descripcion": "Pan crujiente tradicional francés",
+      "categoria": "pan",
+      "precio": 1.50,
+      "cantidad": 50
+    },
+    {
+      "id": "pan-2",
+      "nombre": "Pan Integral",
+      "descripcion": "Pan saludable con granos integrales",
+      "categoria": "pan",
+      "precio": 2.00,
+      "cantidad": 30
+    },
+    {
+      "id": "pan-3",
+      "nombre": "Pan de Molde",
+      "descripcion": "Pan suave ideal para sándwiches",
+      "categoria": "pan",
+      "precio": 1.80,
+      "cantidad": 60
+    },
+    {
+      "id": "pan-4",
+      "nombre": "Pan Chacra",
+      "descripcion": "Pan rústico tradicional peruano con maíz",
+      "categoria": "pan",
+      "precio": 2.50,
+      "cantidad": 45
+    },
+    {
+      "id": "pan-5",
+      "nombre": "Pan de Quinua",
+      "descripcion": "Pan de quinua con alto valor proteico",
+      "categoria": "pan",
+      "precio": 3.00,
+      "cantidad": 40
+    },
+    {
+      "id": "pan-6",
+      "nombre": "Pan de Papa",
+      "descripcion": "Pan suave con sabor a papa",
+      "categoria": "pan",
+      "precio": 2.20,
+      "cantidad": 35
+    },
+    {
+      "id": "pan-7",
+      "nombre": "Pan de Leche",
+      "descripcion": "Pan dulce y suave con leche",
+      "categoria": "pan",
+      "precio": 2.00,
+      "cantidad": 50
+    },
+    {
+      "id": "pan-8",
+      "nombre": "Pan de Yuca",
+      "descripcion": "Pan hecho con almidón de yuca",
+      "categoria": "pan",
+      "precio": 2.50,
+      "cantidad": 40
+    },
+    {
+      "id": "pan-9",
+      "nombre": "Pan de Camote",
+      "descripcion": "Pan de batata suave y dulce",
+      "categoria": "pan",
+      "precio": 2.30,
+      "cantidad": 30
+    },
+    {
+      "id": "pan-10",
+      "nombre": "Pan de Choclo",
+      "descripcion": "Pan dulce con maíz tierno",
+      "categoria": "pan",
+      "precio": 2.20,
+      "cantidad": 55
+    },
+    {
+      "id": "pan-11",
+      "nombre": "Pan de Huevo",
+      "descripcion": "Pan suave con un toque de huevo",
+      "categoria": "pan",
+      "precio": 2.00,
+      "cantidad": 45
+    },
+    {
+      "id": "pan-12",
+      "nombre": "Pan Criollo",
+      "descripcion": "Pan tradicional peruano de textura suave",
+      "categoria": "pan",
+      "precio": 2.00,
+      "cantidad": 50
+    },
+    {
+      "id": "pastel-1",
+      "nombre": "Tarta de Chocolate",
+      "descripcion": "Deliciosa tarta con chocolate belga",
+      "categoria": "pastel",
+      "precio": 15.00,
+      "cantidad": 10
+    },
+    {
+      "id": "pastel-2",
+      "nombre": "Cheesecake",
+      "descripcion": "Tarta de queso New York style",
+      "categoria": "pastel",
+      "precio": 18.00,
+      "cantidad": 8
+    },
+    {
+      "id": "pastel-3",
+      "nombre": "Torta de Vainilla",
+      "descripcion": "Torta clásica de vainilla con crema",
+      "categoria": "pastel",
+      "precio": 12.00,
+      "cantidad": 15
+    },
+    {
+      "id": "pastel-4",
+      "nombre": "Torta de Tres Leches",
+      "descripcion": "Pastel tradicional peruano remojado en tres tipos de leche",
+      "categoria": "pastel",
+      "precio": 16.00,
+      "cantidad": 12
+    },
+    {
+      "id": "pastel-5",
+      "nombre": "Alfajor Peruano",
+      "descripcion": "Dulce de leche entre dos galletas cubierto con azúcar glas",
+      "categoria": "pastel",
+      "precio": 3.00,
+      "cantidad": 30
+    },
+    {
+      "id": "pastel-6",
+      "nombre": "Pastel de Nuez",
+      "descripcion": "Pastel de nuez con un toque de caramelo",
+      "categoria": "pastel",
+      "precio": 14.00,
+      "cantidad": 20
+    },
+    {
+      "id": "pastel-7",
+      "nombre": "Tarta de Frutas",
+      "descripcion": "Tarta con una variedad de frutas frescas",
+      "categoria": "pastel",
+      "precio": 17.00,
+      "cantidad": 25
+    },
+    {
+      "id": "pastel-8",
+      "nombre": "Brownie de Chocolate",
+      "descripcion": "Pastel de chocolate denso y húmedo",
+      "categoria": "pastel",
+      "precio": 8.00,
+      "cantidad": 50
+    },
+    {
+      "id": "pastel-9",
+      "nombre": "Pastel de Manzana",
+      "descripcion": "Pastel casero de manzana con canela",
+      "categoria": "pastel",
+      "precio": 12.50,
+      "cantidad": 18
+    },
+    {
+      "id": "pastel-10",
+      "nombre": "Torta de Limón",
+      "descripcion": "Tarta de limón con base de galleta",
+      "categoria": "pastel",
+      "precio": 14.00,
+      "cantidad": 20
+    },
+    {
+      "id": "pastel-11",
+      "nombre": "Pastel de Durazno",
+      "descripcion": "Pastel de durazno fresco con crema",
+      "categoria": "pastel",
+      "precio": 12.50,
+      "cantidad": 15
+    },
+    {
+      "id": "pastel-12",
+      "nombre": "Cinnamon Roll",
+      "descripcion": "Rollos de canela con glaseado de azúcar",
+      "categoria": "pastel",
+      "precio": 5.00,
+      "cantidad": 40
+    },
+    {
+      "id": "bebida-1",
+      "nombre": "Café Americano",
+      "descripcion": "Café recién molido",
+      "categoria": "bebida",
+      "precio": 1.80,
+      "cantidad": 100
+    },
+    {
+      "id": "bebida-2",
+      "nombre": "Chocolate Caliente",
+      "descripcion": "Chocolate caliente cremoso",
+      "categoria": "bebida",
+      "precio": 2.50,
+      "cantidad": 50
+    },
+    {
+      "id": "bebida-3",
+      "nombre": "Jugos Naturales",
+      "descripcion": "Jugos frescos de frutas naturales",
+      "categoria": "bebida",
+      "precio": 3.00,
+      "cantidad": 70
+    },
+    {
+      "id": "bebida-4",
+      "nombre": "Café con Leche",
+      "descripcion": "Café suave con leche espumosa",
+      "categoria": "bebida",
+      "precio": 2.50,
+      "cantidad": 90
+    },
+    {
+      "id": "bebida-5",
+      "nombre": "Te Helado",
+      "descripcion": "Refresco de té natural con limón",
+      "categoria": "bebida",
+      "precio": 2.00,
+      "cantidad": 60
+    },
+    {
+      "id": "bebida-6",
+      "nombre": "Mocachino",
+      "descripcion": "Café con chocolate y leche espumosa",
+      "categoria": "bebida",
+      "precio": 3.50,
+      "cantidad": 50
+    },
+    {
+      "id": "bebida-7",
+      "nombre": "Chicha Morada",
+      "descripcion": "Bebida tradicional peruana hecha de maíz morado",
+      "categoria": "bebida",
+      "precio": 2.00,
+      "cantidad": 70
+    },
+    {
+      "id": "bebida-8",
+      "nombre": "Limonada",
+      "descripcion": "Limonada fresca y natural",
+      "categoria": "bebida",
+      "precio": 2.20,
+      "cantidad": 50
+    },
+    {
+      "id": "bebida-9",
+      "nombre": "Macuñi",
+      "descripcion": "Bebida tradicional a base de hierbas andinas",
+      "categoria": "bebida",
+      "precio": 3.00,
+      "cantidad": 40
+    },
+    {
+      "id": "bebida-10",
+      "nombre": "Café Latte",
+      "descripcion": "Café espresso con leche espumosa",
+      "categoria": "bebida",
+      "precio": 2.80,
+      "cantidad": 60
+    },
+    {
+      "id": "bebida-11",
+      "nombre": "Frescolita",
+      "descripcion": "Bebida peruana refrescante de frutas",
+      "categoria": "bebida",
+      "precio": 2.50,
+      "cantidad": 50
+    },
+    {
+      "id": "bebida-12",
+      "nombre": "Té Verde",
+      "descripcion": "Té verde natural y saludable",
+      "categoria": "bebida",
+      "precio": 2.00,
+      "cantidad": 40
+    }
+  ]
+}

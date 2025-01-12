@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - Panadería La Delicia</title>
+    <link rel="stylesheet" href="/Public/css/productos.css">
+</head>
+<body>
+    <header>
+        <div class="container-fluid">
+            <img src="/Public/images/Logo.png" alt="Logo de tu empresa" class="log img-fluid" width="90">
+            <h1>Panadería La Delicia</h1>            
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/Pages/productos.html">Productos</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="productos" class="products">
+            <h2>Nuestros Productos</h2>
+            <div class="filters">
+                <label for="categoria">Categoría: </label>
+                <select id="categoria" onchange="filtrarProductos()">
+                    <option value="todos">Todos</option>
+                    <option value="pan">Pan</option>
+                    <option value="pastel">Pastel</option>
+                    <option value="bebida">Bebida</option>
+                </select>
+            </div>
+            <div class="product-list" id="product-list"></div>
+        </section>
+        
+        <section id="carrito" class="cart">
+            <h2>Carrito de Compras</h2>
+            <div id="cart-items"></div>
+            <p>Total: S/<span id="cart-total">0.00</span></p>
+            <button onclick="pago()">Pagar</button>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Panadería La Delicia. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="/Public/js/productos.js"></script>
+</body>
+</html>

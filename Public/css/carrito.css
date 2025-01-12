@@ -1,0 +1,103 @@
+:root {
+    --color-beige-100: #F5E6D3;
+    --color-beige-200: #E6D2B8;
+    --color-coffee-600: #7E5539;
+    --color-coffee-700: #6B4423;
+    --color-coffee-800: #583E23;
+    --color-cappuccino-100: #E6CCB2;
+    --color-cappuccino-200: #D9B99B;
+    --color-cappuccino-300: #C9A883;
+}
+
+body {
+    font-family: 'Times New Roman', 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-beige-100);
+    color: var(--color-coffee-800);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: var(--color-coffee-700);
+}
+
+input{
+    font-family: 'Times New Roman', 'Georgia', serif;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.product-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.product-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border-bottom: 1px solid var(--color-beige-200);
+    padding-bottom: 10px;
+}
+
+.total {
+    font-weight: bold;
+    text-align: right;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid var(--color-beige-200);
+    border-radius: 4px;
+}
+
+.radio-group {
+    display: flex;
+    gap: 15px;
+}
+
+button {
+    background-color: var(--color-coffee-700);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: var(--color-coffee-800);
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+}

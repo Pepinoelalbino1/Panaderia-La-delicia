@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Panadería La Delicia</title>
+    <link rel="stylesheet" href="/Public/css/carrito.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Finalizar Compra</h1>
+        
+        <div class="card">
+            <h2>Resumen del Pedido</h2>
+            <ul class="product-list" id="product-list">
+                <!-- Los productos se cargarán dinámicamente aquí -->
+            </ul>
+            <div class="total">
+                Subtotal: <span id="subtotal">€0.00</span><br>
+                Envío: <span id="shipping">€0.00</span><br>
+                Total: <span id="total">€0.00</span>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>Método de Entrega</h2>
+            <div class="form-group radio-group">
+                <label>
+                    <input type="radio" name="delivery" value="pickup" checked> Recojo en tienda
+                </label>
+                <label>
+                    <input type="radio" name="delivery" value="delivery"> Envío a domicilio (S/ 5.00)
+                </label>
+            </div>
+        </div>
+        
+        <div class="card" id="shipping-form" style="display: none;">
+            <h2>Datos de Envío</h2>
+            <div class="form-group">
+                <label for="name">Nombre Completo</label>
+                <input type="text" id="name" required >
+            </div>
+            <div class="form-group">
+                <label for="address">Dirección</label>
+                <input type="text" id="address" required>
+            </div>
+            <div class="form-group">
+                <label for="city">Ciudad</label>
+                <input type="text" id="city" required>
+            </div>
+            <div class="form-group">
+                <label for="postal-code">Código Postal</label>
+                <input type="text" id="postal-code" required>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>Método de Pago</h2>
+            <div class="form-group">
+                <label for="card-number">Número de Tarjeta</label>
+                <input type="text" id="card-number" required>
+            </div>
+            <div class="form-group">
+                <label for="card-name">Nombre en la Tarjeta</label>
+                <input type="text" id="card-name" required>
+            </div>
+            <div class="form-group">
+                <label for="expiry">Fecha de Expiración</label>
+                <input type="text" id="expiry" placeholder="MM/AA" required>
+            </div>
+            <div class="form-group">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" required>
+            </div>
+        </div>
+        
+        <button onclick="placeOrder()">Realizar Pedido</button>
+    </div>
+    <script src="/Public/js/carrito.js"></script>
+
+</body>
+</html>

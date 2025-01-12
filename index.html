@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panadería La Delicia</title>
+    <link rel="stylesheet" href="/Public/css/index.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='Public/css/styleCarrusel.css'>
+    <link rel="stylesheet" href="splide-4.1.3/dist/css/splide.min.css">
+    <script src="splide-4.1.3/dist/js/splide.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container-fluid">
+                <img  src="/Public/images/Logo.png" alt="Logo de tu empresa" class="log img-fluid" width="90">
+               <h1>Panadería La Delicia</h1>            
+            </div>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="/Pages/productos.html">Productos</a></li>
+                <li><a href="#info">Informacion</a></li>
+                <li><a href="/Pages/contacto/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="inicio" class="hero">
+            <h2>Bienvenidos a nuestra panadería artesanal</h2>
+            <p>Disfruta de nuestros panes y pasteles recién horneados todos los días.</p>
+        </section>
+        
+        <section>
+            <div class="container-Carrusel-P">
+                <div class="splide">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <img class="productoCarruselP" src="https://ventus-media.s3.amazonaws.com/1256/Seo-agosto-pan.jpg" alt="Imagen 1">
+                            </li>
+                            <li class="splide__slide">
+                                <img class="productoCarruselP" src="https://img.freepik.com/fotos-premium/tortas-pasteles-hechos-casa-frescos-panaderias-pasteleria_124507-104406.jpg" alt="Imagen 2">
+                            </li>
+                            <li class="splide__slide">
+                                <img class="productoCarruselP" src="https://www.ocu.org/-/media/ocu/seo/alimentaci%C3%B3n/caf%C3%A9/cafe-gourmet%201.jpg?la=es-es&rev=c703150e-d472-4884-a8b7-bfc63dc2050c&h=338&w=600&hash=4F090946E0AF176DBD78269C43CE4C0C&mw=960" alt="Imagen 3">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <script src="Public/js/carruselP.js"></script>
+        </section>
+
+        <section id="productos">
+            <h2>Nuestros Productos</h2>
+            <div class="products">
+                <div class="product">
+                    <h3>Panes Artesanales</h3>
+                    <img src="/Public/images/panes.jpeg" alt="Pan Artesanal">
+                    <p>Elaborados con masa madre y horneados diariamente.</p>
+                </div>
+                <div class="product">
+                    <h3>Pasteles</h3>
+                    <img src="/Public/images/tortas.jpeg" alt="Pastel de chocolate">
+                    <p>Creaciones únicas para cualquier celebración.</p>
+                </div>
+                <div class="product">
+                    <h3>Café Gourmet</h3>
+                    <img src="/Public/images/cafe.jpeg" alt="Cafe Gourmet">
+                    <p>Selección de granos premium tostados a la perfección.</p>
+                </div>
+                <div class="product">
+                    <h3>Bebidas</h3>
+                    <img src="https://odisaequipa.com.mx/wp-content/uploads/2022/08/frappe-1.jpg" alt="Bebidas">
+                    <p>Selección de granos premium tostados a la perfección.</p>
+                </div>
+                <div class="product">
+                    <h3>Brownie</h3>
+                    <img src="https://www.annarecetasfaciles.com/files/brownie-img_5335.jpg" alt="Brownie">
+                    <p>Un bocado dulce y maravilloso para alegrar tu dia.</p>
+                </div>
+                <div class="product">
+                    <h3>Brownie Magico</h3>
+                    <img src="https://oem.com.mx/elheraldodechiapas/img/16572472/1655290464/BASE_LANDSCAPE/1200/Brownies.jpg" alt="Brownie">
+                    <p>Un producto que te hace tocar el cielo.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="info">
+            <h2>Información</h2>
+            <p>Visítanos en Calle del Pan 123, 28001 Piura</p>
+            <p>Teléfono: +51 999 888 777</p>
+            <p><a href="/Pages/Messages/contacto.html">Contactanos</a></p>
+            <p>Horario: Lun-Sáb: 7:00 - 21:00, Dom: 8:00 - 14:00</p>
+        </section>
+        
+        <div class="counter">
+            <h3>Panes horneados hoy:</h3>
+            <p id="count">0</p>
+            <button onclick="incrementCount()">Hornear un pan</button>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Panadería La Delicia. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="/Public/js/index.js"></script>
+</body>
+</html>

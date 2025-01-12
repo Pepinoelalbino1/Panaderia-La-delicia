@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Desea seguir como invitado?</title>
+    <link rel="stylesheet" href="/Public/css/invitado.css">
+</head>
+<body>
+    <div class="container">
+        <h1>¿Desea seguir como invitado?</h1>
+        <p>Te puedes perder de las muchas ofertas y promociones que tenemos para ti</p>
+        <button class="btn-invitado" onclick="redirigir()">Seguir como invitado</button>
+        <button class="btn-login" onclick="redirigir()">Iniciar Sesión</button>
+    </div>
+
+    <script>
+        
+        function redirigir() {
+            event.target.className == "btn-invitado" ? window.location.href = "/Pages/carrito.html" : window.location.href = "/login/login_register.html";
+        }
+    </script>
+</body>
+</html>
