@@ -13,18 +13,18 @@
         <div class="card">
             <h2>Resumen del Pedido</h2>
             <ul class="product-list" id="product-list">
-                <!-- Los productos se cargarán dinámicamente aquí -->
+                <!-- Products will be loaded dynamically -->
             </ul>
             <div class="total">
-                Subtotal: <span id="subtotal">€0.00</span><br>
-                Envío: <span id="shipping">€0.00</span><br>
-                Total: <span id="total">€0.00</span>
+                Subtotal: <span id="subtotal">S/0.00</span><br>
+                Envío: <span id="shipping">S/0.00</span><br>
+                Total: <span id="total">S/0.00</span>
             </div>
         </div>
         
         <div class="card">
             <h2>Método de Entrega</h2>
-            <div class="form-group radio-group">
+            <div class="form-group">
                 <label>
                     <input type="radio" name="delivery" value="pickup" checked> Recojo en tienda
                 </label>
@@ -38,11 +38,15 @@
             <h2>Datos de Envío</h2>
             <div class="form-group">
                 <label for="name">Nombre Completo</label>
-                <input type="text" id="name" required >
+                <input type="text" id="name" required>
             </div>
             <div class="form-group">
                 <label for="address">Dirección</label>
                 <input type="text" id="address" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Teléfono</label>
+                <input type="tel" id="phone" required>
             </div>
             <div class="form-group">
                 <label for="city">Ciudad</label>
@@ -56,27 +60,74 @@
         
         <div class="card">
             <h2>Método de Pago</h2>
-            <div class="form-group">
-                <label for="card-number">Número de Tarjeta</label>
-                <input type="text" id="card-number" required>
+            <div class="payment-methods">
+                <div class="payment-method" data-method="card">
+                    <img src="/api/placeholder/60/60" alt="Credit Card">
+                    <div>Tarjeta de Crédito/Débito</div>
+                </div>
+                <div class="payment-method" data-method="yape">
+                    <img src="/api/placeholder/60/60" alt="Yape">
+                    <div>Yape</div>
+                </div>
+                <div class="payment-method" data-method="plin">
+                    <img src="/api/placeholder/60/60" alt="Plin">
+                    <div>Plin</div>
+                </div>
             </div>
-            <div class="form-group">
-                <label for="card-name">Nombre en la Tarjeta</label>
-                <input type="text" id="card-name" required>
+
+            <div id="card-form" class="payment-form" style="display: none;">
+                <div class="form-group">
+                    <label for="card-number">Número de Tarjeta</label>
+                    <input type="text" id="card-number" required maxlength="16">
+                </div>
+                <div class="form-group">
+                    <label for="card-name">Nombre en la Tarjeta</label>
+                    <input type="text" id="card-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="expiry">Fecha de Expiración</label>
+                    <input type="text" id="expiry" placeholder="MM/AA" required maxlength="5">
+                </div>
+                <div class="form-group">
+                    <label for="cvv">CVV</label>
+                    <input type="text" id="cvv" required maxlength="4">
+                </div>
             </div>
-            <div class="form-group">
-                <label for="expiry">Fecha de Expiración</label>
-                <input type="text" id="expiry" placeholder="MM/AA" required>
+
+            <div id="yape-form" class="payment-form" style="display: none;">
+                <div class="form-group">
+                    <label for="yape-phone">Número de Yape</label>
+                    <input type="tel" id="yape-phone" value="999-888-777" readonly>
+                    <p>Realiza el pago y envía el screenshot al completar la orden</p>
+                </div>
             </div>
-            <div class="form-group">
-                <label for="cvv">CVV</label>
-                <input type="text" id="cvv" required>
+
+            <div id="plin-form" class="payment-form" style="display: none;">
+                <div class="form-group">
+                    <label for="plin-phone">Número de Plin</label>
+                    <input type="tel" id="plin-phone" value="999-888-776" readonly>
+                    <p>Realiza el pago y envía el screenshot al completar la orden</p>
+                </div>
             </div>
         </div>
         
         <button onclick="placeOrder()">Realizar Pedido</button>
     </div>
-    <script src="/Public/js/carrito.js"></script>
 
+    <div id="success-modal" class="modal">
+        <div class="modal-content">
+            <h2>¡Pedido Realizado con Éxito!</h2>
+            <div class="success-message">
+                Tu número de pedido es: <span id="order-number"></span>
+            </div>
+            <div class="qr-code" id="order-qr">
+                <!-- QR will be generated here -->
+            </div>
+            <p>Guarda este QR o número de pedido para recoger tus productos</p>
+            <button onclick="closeModal()">Cerrar</button>
+        </div>
+    </div>
+
+    <script src="/Public/js/carrito.js"></script>
 </body>
 </html>
