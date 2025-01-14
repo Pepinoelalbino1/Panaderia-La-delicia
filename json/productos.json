@@ -6,7 +6,8 @@
       "descripcion": "Pan crujiente tradicional francés",
       "categoria": "pan",
       "precio": 1.50,
-      "cantidad": 50
+      "cantidad": 50,
+      "imagen": "/Public/img/productos/Pan Baguette.jpg"
     },
     {
       "id": "pan-2",
@@ -14,7 +15,8 @@
       "descripcion": "Pan saludable con granos integrales",
       "categoria": "pan",
       "precio": 2.00,
-      "cantidad": 30
+      "cantidad": 30,
+      "imagen": "/Public/img/productos/Pan Integral.jpg"
     },
     {
       "id": "pan-3",
@@ -22,7 +24,8 @@
       "descripcion": "Pan suave ideal para sándwiches",
       "categoria": "pan",
       "precio": 1.80,
-      "cantidad": 60
+      "cantidad": 60,
+       "imagen": "/Public/img/productos/Pan de Molde.jpg"
     },
     {
       "id": "pan-4",
@@ -30,7 +33,8 @@
       "descripcion": "Pan rústico tradicional peruano con maíz",
       "categoria": "pan",
       "precio": 2.50,
-      "cantidad": 45
+      "cantidad": 45,
+       "imagen": "/Public/img/productos/Pan Chacra.jpg"
     },
     {
       "id": "pan-5",
@@ -38,7 +42,8 @@
       "descripcion": "Pan de quinua con alto valor proteico",
       "categoria": "pan",
       "precio": 3.00,
-      "cantidad": 40
+      "cantidad": 40,
+       "imagen": "/Public/img/productos/Pan de Quinua.jpg"
     },
     {
       "id": "pan-6",
@@ -46,7 +51,8 @@
       "descripcion": "Pan suave con sabor a papa",
       "categoria": "pan",
       "precio": 2.20,
-      "cantidad": 35
+      "cantidad": 35,
+       "imagen": "/Public/img/productos/Pan de Papa.jpg"
     },
     {
       "id": "pan-7",
@@ -54,7 +60,8 @@
       "descripcion": "Pan dulce y suave con leche",
       "categoria": "pan",
       "precio": 2.00,
-      "cantidad": 50
+      "cantidad": 50,
+      "imagen": "/Public/img/productos/Pan de Leche.jpg"
     },
     {
       "id": "pan-8",
@@ -62,7 +69,8 @@
       "descripcion": "Pan hecho con almidón de yuca",
       "categoria": "pan",
       "precio": 2.50,
-      "cantidad": 40
+      "cantidad": 40,
+      "imagen": "/Public/img/productos/Pan de Yuca.jpg"
     },
     {
       "id": "pan-9",
@@ -70,7 +78,8 @@
       "descripcion": "Pan de batata suave y dulce",
       "categoria": "pan",
       "precio": 2.30,
-      "cantidad": 30
+      "cantidad": 30,
+      "imagen": "/Public/img/productos/Pan de Camote.jpg"
     },
     {
       "id": "pan-10",
@@ -78,7 +87,8 @@
       "descripcion": "Pan dulce con maíz tierno",
       "categoria": "pan",
       "precio": 2.20,
-      "cantidad": 55
+      "cantidad": 55,
+      "imagen": "/Public/img/productos/Pan de Choclo.jpg"
     },
     {
       "id": "pan-11",
@@ -86,7 +96,8 @@
       "descripcion": "Pan suave con un toque de huevo",
       "categoria": "pan",
       "precio": 2.00,
-      "cantidad": 45
+      "cantidad": 45,
+      "imagen": "/Public/img/productos/Pan de Huevo.jpg"
     },
     {
       "id": "pan-12",
@@ -94,7 +105,8 @@
       "descripcion": "Pan tradicional peruano de textura suave",
       "categoria": "pan",
       "precio": 2.00,
-      "cantidad": 50
+      "cantidad": 50,
+      "imagen": "/Public/img/productos/Pan Criollo.jpg"
     },
     {
       "id": "pastel-1",
@@ -102,7 +114,8 @@
       "descripcion": "Deliciosa tarta con chocolate belga",
       "categoria": "pastel",
       "precio": 15.00,
-      "cantidad": 10
+      "cantidad": 10,
+      "imagen": "/Public/img/productos/Tarta de Chocolate.jpg"
     },
     {
       "id": "pastel-2",
@@ -110,7 +123,8 @@
       "descripcion": "Tarta de queso New York style",
       "categoria": "pastel",
       "precio": 18.00,
-      "cantidad": 8
+      "cantidad": 8,
+      "imagen": "/Public/img/productos/Cheesecake.jpg"
     },
     {
       "id": "pastel-3",
@@ -118,7 +132,8 @@
       "descripcion": "Torta clásica de vainilla con crema",
       "categoria": "pastel",
       "precio": 12.00,
-      "cantidad": 15
+      "cantidad": 15,
+      "imagen": "/Public/img/productos/Torta de Vainilla.jpg"
     },
     {
       "id": "pastel-4",
@@ -126,7 +141,8 @@
       "descripcion": "Pastel tradicional peruano remojado en tres tipos de leche",
       "categoria": "pastel",
       "precio": 16.00,
-      "cantidad": 12
+      "cantidad": 12,
+      "imagen": "/Public/img/productos/Torta de Tres Leches.jpg"
     },
     {
       "id": "pastel-5",
@@ -134,7 +150,8 @@
       "descripcion": "Dulce de leche entre dos galletas cubierto con azúcar glas",
       "categoria": "pastel",
       "precio": 3.00,
-      "cantidad": 30
+      "cantidad": 30,
+      "imagen": "/Public/img/productos/Alfajor Peruano.jpg"
     },
     {
       "id": "pastel-6",
@@ -142,7 +159,8 @@
       "descripcion": "Pastel de nuez con un toque de caramelo",
       "categoria": "pastel",
       "precio": 14.00,
-      "cantidad": 20
+      "cantidad": 20,
+      "imagen": "/Public/img/productos/Pastel de Nuez.jpg"
     },
     {
       "id": "pastel-7",
@@ -150,7 +168,8 @@
       "descripcion": "Tarta con una variedad de frutas frescas",
       "categoria": "pastel",
       "precio": 17.00,
-      "cantidad": 25
+      "cantidad": 25,
+      "imagen": "/Public/img/productos/Tarta de Frutas.jpg"
     },
     {
       "id": "pastel-8",
@@ -158,7 +177,8 @@
       "descripcion": "Pastel de chocolate denso y húmedo",
       "categoria": "pastel",
       "precio": 8.00,
-      "cantidad": 50
+      "cantidad": 50,
+      "imagen": "/Public/img/productos/Brownie de Chocolate.jpg"
     },
     {
       "id": "pastel-9",
@@ -166,7 +186,8 @@
       "descripcion": "Pastel casero de manzana con canela",
       "categoria": "pastel",
       "precio": 12.50,
-      "cantidad": 18
+      "cantidad": 18,
+      "imagen": "/Public/img/productos/Pastel de Manzana.jpg"
     },
     {
       "id": "pastel-10",
@@ -174,7 +195,8 @@
       "descripcion": "Tarta de limón con base de galleta",
       "categoria": "pastel",
       "precio": 14.00,
-      "cantidad": 20
+      "cantidad": 20,
+      "imagen": "/Public/img/productos/Torta de Limón.jpg"
     },
     {
       "id": "pastel-11",
@@ -182,7 +204,8 @@
       "descripcion": "Pastel de durazno fresco con crema",
       "categoria": "pastel",
       "precio": 12.50,
-      "cantidad": 15
+      "cantidad": 15,
+      "imagen": "/Public/img/productos/Pastel de Durazno.jpg"
     },
     {
       "id": "pastel-12",
@@ -190,7 +213,8 @@
       "descripcion": "Rollos de canela con glaseado de azúcar",
       "categoria": "pastel",
       "precio": 5.00,
-      "cantidad": 40
+      "cantidad": 40,
+      "imagen": "/Public/img/productos/Cinnamon Roll.jpg"
     },
     {
       "id": "bebida-1",
@@ -198,7 +222,8 @@
       "descripcion": "Café recién molido",
       "categoria": "bebida",
       "precio": 1.80,
-      "cantidad": 100
+      "cantidad": 100,
+      "imagen": "/Public/img/productos/Café Americano.jpg"
     },
     {
       "id": "bebida-2",
@@ -206,7 +231,8 @@
       "descripcion": "Chocolate caliente cremoso",
       "categoria": "bebida",
       "precio": 2.50,
-      "cantidad": 50
+      "cantidad": 50,
+      "imagen": "/Public/img/productos/Chocolate Caliente.jpg"
     },
     {
       "id": "bebida-3",
@@ -214,7 +240,8 @@
       "descripcion": "Jugos frescos de frutas naturales",
       "categoria": "bebida",
       "precio": 3.00,
-      "cantidad": 70
+      "cantidad": 70,
+      "imagen": "/Public/img/productos/Jugos Naturales.jpg"
     },
     {
       "id": "bebida-4",
@@ -222,7 +249,8 @@
       "descripcion": "Café suave con leche espumosa",
       "categoria": "bebida",
       "precio": 2.50,
-      "cantidad": 90
+      "cantidad": 90,
+       "imagen": "/Public/img/productos/Café con Leche.jpg"
     },
     {
       "id": "bebida-5",
@@ -230,7 +258,8 @@
       "descripcion": "Refresco de té natural con limón",
       "categoria": "bebida",
       "precio": 2.00,
-      "cantidad": 60
+      "cantidad": 60,
+      "imagen": "/Public/img/productos/Te Helado.jpg"
     },
     {
       "id": "bebida-6",
@@ -238,7 +267,8 @@
       "descripcion": "Café con chocolate y leche espumosa",
       "categoria": "bebida",
       "precio": 3.50,
-      "cantidad": 50
+      "cantidad": 50,
+      "imagen": "/Public/img/productos/Mocachino.jpg"
     },
     {
       "id": "bebida-7",
@@ -246,7 +276,8 @@
       "descripcion": "Bebida tradicional peruana hecha de maíz morado",
       "categoria": "bebida",
       "precio": 2.00,
-      "cantidad": 70
+      "cantidad": 70,
+      "imagen": "/Public/img/productos/Chicha Morada.jpg"
     },
     {
       "id": "bebida-8",
@@ -254,7 +285,8 @@
       "descripcion": "Limonada fresca y natural",
       "categoria": "bebida",
       "precio": 2.20,
-      "cantidad": 50
+      "cantidad": 50,
+      "imagen": "/Public/img/productos/Limonada.jpg"
     },
     {
       "id": "bebida-9",
@@ -262,7 +294,8 @@
       "descripcion": "Bebida tradicional a base de hierbas andinas",
       "categoria": "bebida",
       "precio": 3.00,
-      "cantidad": 40
+      "cantidad": 40,
+      "imagen": "/Public/img/productos/Macuñi.jpg"
     },
     {
       "id": "bebida-10",
@@ -270,7 +303,8 @@
       "descripcion": "Café espresso con leche espumosa",
       "categoria": "bebida",
       "precio": 2.80,
-      "cantidad": 60
+      "cantidad": 60,
+      "imagen": "/Public/img/productos/Café Latte.jpg"
     },
     {
       "id": "bebida-11",
@@ -278,7 +312,8 @@
       "descripcion": "Bebida peruana refrescante de frutas",
       "categoria": "bebida",
       "precio": 2.50,
-      "cantidad": 50
+      "cantidad": 50,
+      "imagen": "/Public/img/productos/Frescolita.jpg"
     },
     {
       "id": "bebida-12",
@@ -286,7 +321,8 @@
       "descripcion": "Té verde natural y saludable",
       "categoria": "bebida",
       "precio": 2.00,
-      "cantidad": 40
+      "cantidad": 40,
+      "imagen": "/Public/img/productos/Té Verde.jpg"
     }
   ]
 }
