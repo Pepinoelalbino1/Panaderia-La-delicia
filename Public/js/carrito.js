@@ -6,7 +6,7 @@ let cart = {};
       let subtotal = 0;
   
       for (const [product, details] of Object.entries(cart)) {
-          const itemTotal = details.price * details.cantidad;
+          const itemTotal = details.precio * details.cantidad;
           subtotal += itemTotal;
           const li = document.createElement('li');
           li.className = 'product-item';

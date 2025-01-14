@@ -1,52 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Productos - Panadería La Delicia</title>
     <link rel="stylesheet" href="/Public/css/productos.css">
+
 </head>
 <body>
     <header>
-        <div class="container-fluid">
-            <img src="/Public/images/Logo.png" alt="Logo de tu empresa" class="log img-fluid" width="90">
-            <h1>Panadería La Delicia</h1>            
+        <div class="container">
+            <div class="header-content">
+                <div class="brand">
+                    <img src="/Public/img/Logo.png" alt="Logo Panadería La Delicia">
+                    <h1>Panadería La Delicia</h1>
+                </div>
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="/index.html">Inicio</a></li>
+                        <li><a href="/Pages/productos.html">Productos</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-        <nav class="menu">
-            <ul>
-                <li><a href="/index.html">Inicio</a></li>
-                <li><a href="/Pages/productos.html">Productos</a></li>
-            </ul>
-        </nav>
     </header>
-    
+
     <main>
-        <section id="productos" class="products">
-            <h2>Nuestros Productos</h2>
+        <section class="products">
             <div class="filters">
-                <label for="categoria">Categoría: </label>
-                <select id="categoria" onchange="filtrarProductos()">
-                    <option value="todos">Todos</option>
-                    <option value="pan">Pan</option>
-                    <option value="pastel">Pastel</option>
-                    <option value="bebida">Bebida</option>
-                </select>
+                <div class="filter-group">
+                    <label for="categoria">Filtrar por categoría:</label>
+                    <select id="categoria" onchange="filtrarProductos()">
+                        <option value="todos">Todos los productos</option>
+                        <option value="pan">Panes</option>
+                        <option value="pastel">Pasteles</option>
+                        <option value="bebida">Bebidas</option>
+                    </select>
+                </div>
             </div>
             <div class="product-list" id="product-list"></div>
         </section>
-        
-        <section id="carrito" class="cart">
-            <h2>Carrito de Compras</h2>
+
+        <section class="cart">
+            <h2>Tu Carrito</h2>
             <div id="cart-items"></div>
-            <p>Total: S/<span id="cart-total">0.00</span></p>
-            <button onclick="Pago()">Pagar</button>
+            <div class="cart-total">
+                <span>Total:</span>
+                <span>S/ <span id="cart-total">0.00</span></span>
+            </div>
+            <button class="btn" onclick="Pago()">
+                <i class="fas fa-shopping-cart"></i> Proceder al pago
+            </button>
         </section>
     </main>
-    
+
     <footer>
         <p>&copy; 2025 Panadería La Delicia. Todos los derechos reservados.</p>
     </footer>
-
     <script src="/Public/js/productos.js"></script>
 </body>
 </html>
