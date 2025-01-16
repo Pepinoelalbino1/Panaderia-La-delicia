@@ -1,136 +1,38 @@
-:root {
-    --color-beige-100: #F5E6D3;
-    --color-beige-200: #E6D2B8;
-    --color-coffee-600: #7E5539;
-    --color-coffee-700: #6B4423;
-    --color-coffee-800: #583E23;
-    --color-cappuccino-100: #E6CCB2;
-    --color-cappuccino-200: #D9B99B;
-    --color-cappuccino-300: #C9A883;
-}
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 body {
-    background-color: var(--color-beige-100);
-    color: var(--color-coffee-700);
-    font-family: 'Georgia', serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: #fff7e6; /* Color cálido */
     min-height: 100vh;
-    padding: 20px;
+    display: flex;
+    align-items: center;
 }
-
-.container {
-    width: 100%;
-    max-width: 400px;
-    position: relative;
-    overflow: hidden;
-}
-
 .form-container {
-    background-color: var(--color-cappuccino-200);
-    border-radius: 15px;
-    padding: 30px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
-    transition: transform 0.5s ease-in-out;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
 }
-
-.login-form, .register-form {
-    transition: opacity 0.3s ease-in-out;
-}
-
 .hidden {
     display: none;
-    opacity: 0;
 }
-
-h1 {
-    color: var(--color-coffee-800);
-    margin-bottom: 25px;
-    font-size: 28px;
-    text-align: center;
+.form-floating {
+    margin-bottom: 1rem;
 }
-h2 {
-    margin-top: 0;
-    margin-bottom: 20px;
-    text-align: center;
+.bi {
+    margin-right: 0.5rem;
 }
-.input-group {
-    margin-bottom: 20px;
+.btn-primary {
+    background-color: #e67300;
+    border-color: #e67300;
 }
-
-label {
-    display: block;
-    margin-bottom: 8px;
-    font-weight: 500;
+.btn-primary:hover {
+    background-color: #cc6600;
+    border-color: #cc6600;
 }
-
-input[type="email"],
-input[type="password"],
-input[type="text"] {
-    width: 100%;
-    padding: 12px;
-    border: 2px solid var(--color-cappuccino-300);
-    border-radius: 8px;
-    font-size: 16px;
-    transition: border-color 0.3s ease;
-    background-color: var(--color-beige-100);
+.btn-success {
+    background-color: #00cc66;
+    border-color: #00cc66;
 }
-
-input[type="email"]:focus,
-input[type="password"]:focus,
-input[type="text"]:focus {
-    outline: none;
-    border-color: var(--color-coffee-700);
+.btn-success:hover {
+    background-color: #00994d;
+    border-color: #00994d;
 }
-
-input[type="submit"] {
-    background-color: var(--color-coffee-700);
-    color: var(--color-beige-100);
-    border: none;
-    padding: 14px 20px;
-    border-radius: 8px;
-    cursor: pointer;
-    width: 100%;
-    font-size: 16px;
-    font-weight: 600;
-    transition: background-color 0.3s ease;
-}
-
-input[type="submit"]:hover {
-    background-color: var(--color-coffee-800);
-}
-
-.links {
-    margin-top: 20px;
-    text-align: center;
-}
-
-a {
-    color: var(--color-coffee-700);
-    text-decoration: none;
-    font-weight: 500;
-    transition: color 0.3s ease;
-}
-
-a:hover {
-    color: var(--color-coffee-800);
-    text-decoration: underline;
-}
-
-.fade-enter {
-    opacity: 0;
-    transform: translateY(20px);
-}
-
-.fade-enter-active {
-    opacity: 1;
-    transform: translateY(0);
-    transition: opacity 0.3s ease, transform 0.3s ease;
-}
+</style>
